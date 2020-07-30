@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- <h2 class="heading">Ojo Daramola Shalom</h2> -->
+    <nav>
+        <span>
+            <h2 class="heading">DSB </h2>
+        </span>
+        <span class="product__page">
+            <a class="product__link" href="products.html">View Products</a>
+        </span>
+        <i onclick="myWhatsApp()" class="fab fa-whatsapp fa-2x whatsapp"></i>
+    </nav>
+    
+    <div class="wrapper">
+     
+        <!-- Top Container -->
+        <section class="top-container">
+            <header class="showcase">
+                <h1>DSB COLLECTION</h1>
+                <p class="header__paragraph">Sneakers for the world</p>
+                <a href="products.html" class="btn">See Our Products</a>
+            </header>
+            <div class="top-box top-box-a">
+                <h4>Shoe Promo sale</h4>
+                <p class="price">Coming Soon</p>
+                <a onclick="notAvailable()" href="#" class="btn">Not Available ATM</a>
+            </div>
+            <div class="top-box top-box-b">
+                <h4>Cloth Promo sale</h4>
+                <p class="price">Coming Soon </p>
+                <a onclick="notAvailable()" href="#" class="btn">Not Available ATM</a>
+            </div>
+        </section>
+
+        <!-- Boxes Section -->
+        <section class="boxes">
+            <div class="box">
+                <i class="fas fa-shoe-prints fa-4x  "></i>
+                <h3>Get Your Shoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aliquam!</p>
+            </div>
+            
+            <div class="box">
+                <i class="fab fa-accessible-icon fa-4x "></i>
+                <h3>We are Accessible</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aliquam!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-shipping-fast fa-4x  "></i>
+                <h3>Swift Delivery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aliquam!</p>
+            </div>
+            <div class="box">
+                <!-- <i class="fas fa-globe fa-4x"></i> -->
+                <i class="fas fa-clock fa-4x  "></i>
+                <h3>24/7 in ife</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, aliquam!</p>
+            </div>
+        </section>
+
+        <!-- Information Section -->
+        <section class="info">
+            <img src="shalom2.jpg" alt="">
+            <div class="info-info">
+                <h2>What I offer</h2>
+                <p>We deal with sales of shoes Particularly sneakers</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, excepturi. Maiores eos nulla reiciendis nesciunt repellendus officia architecto provident obcaecati!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+       
+
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Shalom &copy; 2020</p>
+            <div class="footer"> 
+                <i onclick="myFacebook()" class="fab fa-facebook fa-4x  footer-icons facebook"></i>
+                <i onclick="myInstagram()" class="fab fa-instagram fa-4x footer-icons instagram"></i>
+                <i onclick="myWhatsApp()" class="fab fa-whatsapp fa-4x  footer-icons whatsapp"></i>
+            </div>
+        </footer>
+        
+    </div>    
+    <!-- Wrapper Ends -->
+   
+    <script src="fontawesome-all.js"></script>
+    <script>
+        function myFacebook(e){
+            e.preventDefault();
+            console.log("Facebook");
+        }
+        function myInstagram(e){
+            e.preventDefault();
+            console.log("Instagram");
+        }
+        function myWhatsApp(e){
+            e.preventDefault();
+            console.log("Whatsapp");
+        }
+        function notAvailable(e){
+            e.preventDefault();
+            alert("This feature is not yet available")
+        }
+    </script>
+</body>
+</html>

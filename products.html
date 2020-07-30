@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSB Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+
+    <nav>
+        <span>
+            <h2 class="heading">DSB </h2>
+        </span>
+       
+        <i onclick="myWhatsApp()" class="fab fa-whatsapp fa-2x whatsapp"></i>
+    </nav>
+
+
+    <div class="main">
+        <h2>Product Gallery</h2>
+        <img src="shalom.jpg" alt="">
+        <img src="shalom2.jpg" alt="">
+        <img src="shalom1.jpg" alt="">
+    </div>
+
+
+     <!-- Footer Section -->
+     <footer>
+        <p>Shalom &copy; 2020</p>
+        <div class="footer"> 
+            <i onclick="myFacebook()" class="fab fa-facebook fa-4x  footer-icons facebook"></i>
+            <i onclick="myInstagram()" class="fab fa-instagram fa-4x footer-icons instagram"></i>
+            <i onclick="myWhatsApp()" class="fab fa-whatsapp fa-4x  footer-icons whatsapp"></i>
+        </div>
+    </footer>
+
+
+    <script src="fontawesome-all.js"></script>
+    <script>
+        function myFacebook(){
+            console.log("Facebook");
+        }
+        function myInstagram(){
+            console.log("Instagram");
+        }
+        function myWhatsApp(){
+            console.log("Whatsapp");
+        }
+        function notAvailable(){
+            alert("This feature is not yet available")
+        }
+    </script>
+</body>
+</html>
